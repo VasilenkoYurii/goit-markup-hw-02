@@ -242,7 +242,7 @@ body {
 
 /* tehnology */
 
-.technology.list > li > a {
+.link.technology {
   text-decoration: none;
 }
 
