@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: var(--main-bg);
+  background-color: var(--main-white);
   color: var(--black);
   font-weight: 400;
 
@@ -184,6 +184,9 @@ body {
 }
 
 /* team */
+.section.team {
+  background-color: var(--bg-batton);
+}
 
 .section-title.team {
   font-weight: 700;
