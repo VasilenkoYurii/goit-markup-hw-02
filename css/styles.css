@@ -29,6 +29,7 @@
 body {
   background-color: var(--main-bg);
   color: var(--black);
+  font-weight: 400;
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -54,6 +55,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo-footer {
@@ -63,6 +65,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo-first-words {
@@ -95,10 +98,20 @@ body {
   color: var(--p-color);
 }
 
+.link {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
 /* Main */
 
 .hero {
   background-color: var(--color-ftr);
+
+  text-align: center;
 }
 
 .hero-title {
@@ -127,7 +140,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
 }
 
 .button.second:hover,
@@ -157,7 +169,6 @@ body {
 
 .features .features-prg {
   color: var(--p-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -168,9 +179,19 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+
+  text-align: center;
 }
 
 /* team */
+
+.section-title.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  text-align: center;
+}
 
 .team .team-title {
   font-weight: 500;
@@ -179,7 +200,6 @@ body {
 }
 
 .team-title .team.prg {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -191,10 +211,14 @@ body {
 }
 
 .footer-address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  text-decoration: none;
+}
+
+.link-place {
+  text-decoration: none;
 }
 
 .footer-address .link-place {
@@ -210,4 +234,23 @@ body {
 .footer-address .link:hover,
 .footer-address .link:focus {
   color: var(--blue);
+}
+
+/* tehnology */
+
+.technology.list > li > a {
+  text-decoration: none;
+}
+
+.section-title.technology {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.technology.prg {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
